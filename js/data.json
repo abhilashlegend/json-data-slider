@@ -1,0 +1,73 @@
+{ "cars": [
+ {
+	 "Name" : "Koenigsegg CCXR Trevita",
+	 "Image" : "koenigsegg_ccxr_trevita",
+	 "Price" : "$ 4.8 million",
+	 "Description" : "Koenigsegg makes its first appearance on our list with the CCXR Trevita, and it does so as the most expensive street-legal production car in the world. Why so much coin? With no exaggeration, the car is literally coated in diamonds and diamonds aren\'t cheap. For the Trevita, the Swedish manufacturer developed a new exterior finish called the Koenigsegg Proprietary Diamond Weave, which involves coating carbon fibers with a diamond dust-impregnated resin. We cant even fathom how much the touch-up paint costs.\n Underneath the lustrous finish lies a 4.8-liter, dual-supercharged V8 with a total output of 1,004 horsepower and 797 pound-feet of torque, which means it should have little to no trouble overtaking semis on the freeway. The cars specifications — in both performance and price — are nearly comical at this point, and just three were ever made."
+ },
+ { 
+  "Name" : "Lamborghini Veneno",
+  "Image" : "lamborghini_veneno",
+  "Price" : "$ 4.5 million",
+  "Description" : "Poison. Thats the name Lamborghini chose for the modified Aventador you see above — translated from Spanish of course — built to celebrate the automakers 50th birthday. We cant speak for the companys motivations, but the name is fitting for a vehicle that looks so positively deadly, so undeniably venomous.\n The car is absolutely stunning from every angle, and to this day, we are not convinced it is not an alien spacecraft surveying our planet for eventual takeover. It just does not seem real. The only thing more remarkable than the look is the price — a whopping $4.5 million. The Veneno is fast, and that should come as no surprise. Its 6.5-liter V12 spins all the way up to 8,400 rpm to deliver 740 hp and 507 lb-ft, surging the car to 60 mph in 2.9 seconds."
+ },
+ {
+	 "Name" : "W Motors Lykan Hypersport",
+	 "Image" : "w_motors_lykan_hypersport",
+	 "Price" : "$ 3.4 million",
+	 "Description" : "You may recall the Lykan Hypersport from its starring role in the blockbuster Furious 7, where the Lebanese supercar crashed through not one, not two, but three skyscrapers in Dubai. In a franchise filled with high-end exotics and one-off custom creations, the fact that the Hypersport got so much focus is a testament to its magnetism.\n Lets start with the styling, which includes jewel-encrusted headlights, scissor doors, and an interior ripped straight from science fiction. It looks like a pissed off armored car from the future, and its performance is right on par with its image. The Hypersport boasts a 3.7-liter, twin-turbo flat-six that yields 770 hp and 708 lb-ft.\n Its not just Dominic Toretto who benefits from this level of performance, though, as the Abu Dhabi police force has drafted the Hypersport into patrol duty. Although its mainly used for marketing and public relations purposes, the high-flying stunner assures that the authorities can keep up with any baddie who tries to get cute on the freeway. Pedal to the floor, 0 to 62 mph is accomplished in just 2.8 seconds, and top speed is a downright scary 240 mph."
+ },
+ {
+	 "Name" : "Limited Edition Bugatti Veyron by Mansory Vivere",
+	 "Image" : "limited_edition_bugatti_veyron_by_mansory_vivere",
+	 "Price" : ": $3.4 million",
+	 "Description" : "This list would not be complete without some version of the mighty Bugatti Veyron. We are shining our spotlight on the the Mansory Vivere edition here, because not only is it one of the fastest cars in the world, its one of the most expensive.\n Augmented by German witch doctors Mansory, the 1,200-hp Veyron starts out as a Grand Sport Vitesse Roadster, only to be adorned with a gorgeous carbon-fiber body, a new spoiler package, upgraded LED lights, a revamped cabin, and a redesigned front grill. Further classifying the Veyron as a work of art, maps of historic race events like the Targa Florio are laser etched into the exterior and interior. Oh, and it can do 254 mph."
+ },
+ {
+	 "Name" : "Ferrari Pininfarina Sergio",
+	 "Image" : "ferrari_pininfarina_sergio",
+	 "Price" : "$ 3 million",
+	 "Description" : "With an asking price of $3 million, the Ferrari Sergio is not the most expensive car on our list. It is, however, one of the most highly-coveted vehicles in the world, as only six were ever made.\n Crafted by legendary Italian design house Pininfarina, the Sergio is essentially a Ferrari 458 Spider with a completely new body and interior. That means a 4.5-liter V8 sends a whopping 562 hp to the rear wheels, but because the Sergio is lighter than the 458, its quicker and handles better. The new body does not just save weight — its chock-full of interesting details like aerodynamic headrests that are built directly into the roll cage.\n With so few examples built, the Sergios purchase process was not as simple as strolling up to a Ferrari dealership. No, each owner was chosen by automaker itself, making it one of the rare invite-only vehicles in automotive history."
+ },
+ {
+	 "Name" : "Pagani Huayra BC",
+	 "Image" : "pagani_huayra_bc",
+	 "Price" : "$ 2.6 million",
+	 "Description" : "With an AMG-sourced V12 and the second fastest road-legal Top Gear lap ever, the Pagani Huayra is a beast through and through — it is named after the Incan God of Winds, after all. That was not quite enough for Pagani, however. At the 2016 Geneva Motor Show, Pagani debuted the Huayra BC, a lighter, hotter version that takes no prisoners.\n Right off the bat, you can tell the BC is playing a different game from the standard Huayra. It is fitted with an enormous active rear spoiler that generates 1,102 pounds of downforce at 155 mph, as well as a wider rear track, new side skirts, and a bevy of sexy aero goodies. Despite the additions, the BC is a true featherweight, tipping the scales at a paltry 2,654 pounds thanks to the extensive use of carbon fiber and other lightweight materials. The whole deal will cost you a cool $2.6 million (or it would have, if all 20 units hadn not sold already), but you clearly get a lot for your money. With 789 turbocharged ponies on tap, the BC may actually live up to its godly name."
+ },
+ {
+	 "Name" : "Ferrari F60 America",
+	 "Image" : "ferrari_f60_america",
+	 "Price" : "$ 2.5 million",
+	 "Description" : "To celebrate Ferrari's 60-year tenure in North America, the Italian brand built 10 examples of this stunning bombshell. Based on the F12 Berlinetta, the F60 is undeniably patriotic as it wears a Stars and Stripes color scheme, American flag seat inserts, and classic racing livery all around. Better yet, you can experience the glory with the top down, as the F60 features a lightweight fabric top that can be operated at speeds up to 75 mph.\n The supercar is mechanically identical to the F12, but the Berlinetta isn not exactly a Fiat Panda to begin with. Its 6.2-liter V12 churns out 740 glorious hp, enough to propel the car to 60 mph in only 3.1 seconds. The ultra rare flag-waver harks back to Ferrari's  bespoke past, as the company built several region-specific sports cars in the 1950s and 1960s."
+ },
+ {
+	 "Name" : "Bugatti Chiron",
+	 "Image" : "bugatti_chiron",
+	 "Price" : "$ 2.5 million",
+	 "Description" : "How do you follow up a classic? You make something even better. With a starting price of $2.5 million and a gorgeous new body, the divine Chiron outdoes its predecessor in every conceivable way. While the Bugatti Veyron redefined what an automobile could do, the Chiron laughs at those who said the Veyron was the last of its kind, pushing the boundaries of performance even further into the stratosphere.\n The supercars monstrous specs are made possible by its reworked quad-turbocharged 8.0-liter W16, which now produces 1,500 hp and a monstrous 1,180 lb-ft. Sixty mph is dealt with in a rather quick 2.5 seconds on the way to the Chiron's top speed, which is limited to 261 mph. It's still not the fastest car in the world — that title belongs the Hennessey Venom GT — but cars like these aren't just about speed; they're about making statements. We think you'll agree this Bugatti makes a very strong statement indeed."
+ },
+ {
+	 "Name" : "Koenigsegg One",
+	 "Image" : "koenigsegg_one",
+	 "Price" : "$ 2 million",
+	 "Description" : "You can buy a lot with $2 million — a really nice house, about 80 Mazda MX-5's, or the Swedish megacar shown above. A logical thinker could probably think of a better way to spend your life savings, but megacars don't give a damn about logic. Because the2016 Mazda MX-5 Miata reviewy're mega. And after reading what the car is capable of, $2 million might actually be a steal.\n The limited-edition One:1 is based on the Agera R, and it earned its poetic moniker by employing a 1:1 kilogram-to-horsepower ratio. The figure on each side of the colon? 1,340. That's right, this car has 1,340 hp, and can theoretically top 273 mph because of it. Simply put, this is one of the fastest automobiles ever made, and with its F1-style honeycomb core, carbon-fiber intake manifold, and ventilated ceramic brakes, it's one of the most advanced as well.\n Just six examples of the speedy Swede were built, and each one was sold quite quickly. Keep an eye out on Craigslist — you never know."
+ },
+ {
+	 "Name" : "Koenigsegg Regera",
+	 "Image" : "koenigsegg_regera",
+	 "Price" : "$ 2 million",
+	 "Description" : "When we think of hybrid hypercars, we generally fantasize about the \"holy trinity\" — aka, the McLaren P1, Porsche 918 Spyder, and Ferrari LaFerrari. Somehow, Koenigsegg always gets left out, despite the fact that the Swedish automaker makes a vehicle that outshines its electrified competition in many ways.\n Powered by a twin-turbo 5.0-liter V8 and a 4.5-kWh battery pack, the $2 million Regera produces an outstanding 1,500 hp in total, a stat made all the more impressive when you consider the car's low weight of 3,240 lbs. Zero to 60 in 2.8 seconds is impressive to be sure, but the Regera's 0 to 186 mph sprint is even more mind-blowing — the feat is accomplished in only 10.9 seconds. By Koenigsegg's internal estimates, the car will be able to reach its top speed of 248 mph in just 20 seconds or so, which is a triumph over physics as much as it is a bragging right. Why just an estimate? Apparently, the brand can't find a road long enough."
+ }
+ ]
+}
+
+
+
+
+
+
+
+	 
+
+ 

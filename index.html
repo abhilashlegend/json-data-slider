@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>JSON Data Slider</title>
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+<style>
+	.carosel-container { background:#EEE; padding:10px; border:1px solid #DDD; font-family:Arial, Helvetica, sans-serif; }
+	.cars { width:100%; position:relative; }
+	.car-name, .car-price { width:50%; margin:0px; float:left; margin-bottom:10px; line-height:2; }
+	.car-price { margin-top:10px; }
+	.car-desc { margin:0px;  }
+	.carosel-nav { width:50%; float:right;  }
+	.carosel-nav button { float:right; width:30px; height:30px; background:#21a0ca; color:#FFF; border:none; margin-left:10px; margin-top:3px; }
+	.carosel-nav button:first-child { margin-right:10px; }
+	.clearfix { clear:both; }
+	.img-responsive { display:block; width:100%; }
+</style>
+</head>
+
+<body>
+  <div class="carosel-container" id="carosel-container">
+  
+  	<div id="carosel">
+    
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+   <script type="text/javascript" src="js/mustache.js"></script>  
+   <script id="carstpl" type="text/template">
+   	{{#cars}}
+		<div class="cars">
+			<h3 class="car-name"> {{Name}} </h3> 
+			<div class="carosel-nav">
+				<button onclick="changeSlide(-1)"><i class="fa fa-chevron-right"></i></button>
+				<button onclick="changeSlide(1)"><i class="fa fa-chevron-left"></i></button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+			<img src="images/{{Image}}.jpg" class="img-responsive" alt="{{Image}}" />
+
+			<h4 class="car-price">Price: {{Price}} </h4>
+			<div class="carosel-nav" style="margin-top:10px;">
+				<button onclick="changeSlide(-1)"><i class="fa fa-chevron-right"></i></button>
+				<button onclick="changeSlide(1)"><i class="fa fa-chevron-left"></i></button>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+			<p class="car-desc"> {{Description}} </p>
+		</div>
+	{{/cars}}
+   </script>
+   
+   <script>
+   var currentIndex = 1;
+   	$(function() {
+		$.getJSON('js/data.json', function(data) {
+			var template = $('#carstpl').html();
+			var html = Mustache.to_html(template, data);
+			$('#carosel').html(html);
+			
+			
+			displaySlide(currentIndex);
+			
+		});
+		
+		
+		
+	});
+	function displaySlide(n) {
+				currentIndex = n;
+				nocars = $('.cars').length;
+				
+				if(currentIndex > nocars) {
+					currentIndex = 1;	
+				}
+				if(currentIndex < 1) {
+					currentIndex = nocars;	
+				}
+				for(i = 0; i < nocars; i++) {
+					$('.cars').css("display","none");	
+				}
+			
+				$('.cars').eq(currentIndex - 1).css({'display':'block'});
+			}
+			
+			
+	function changeSlide(n) {
+				currentIndex = currentIndex + n;
+				displaySlide(currentIndex);		
+			}
+   </script>
+</body>
+</html>
